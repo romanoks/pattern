@@ -1,4 +1,4 @@
-package abstract_factory;
+package abstract_factory.step1;
 
 public abstract class SquardonFactory {
     public abstract Mage createMage();

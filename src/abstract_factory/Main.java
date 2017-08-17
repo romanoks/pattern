@@ -1,5 +1,11 @@
 package abstract_factory;
 
+import abstract_factory.step1.Archer;
+import abstract_factory.step1.Mage;
+import abstract_factory.step1.SquardonFactory;
+import abstract_factory.step1.Warrior;
+import abstract_factory.step2.ElfSquardonFactory;
+
 public class Main {
 
     public void createSquadron (SquardonFactory factory) {

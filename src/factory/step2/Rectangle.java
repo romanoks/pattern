@@ -1,4 +1,6 @@
-package factory;
+package factory.step2;
+
+import factory.step1.Shape;
 
 public class Rectangle implements Shape {
 
