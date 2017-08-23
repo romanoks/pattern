@@ -1,7 +1,7 @@
 package decorator.step4;
 
 import decorator.step1.Shape;
-import decorator.step3.ShapeDecarator;
+import decorator.step3_decorator.ShapeDecarator;
 
 public class RedShapeDecorator extends ShapeDecarator {
     public RedShapeDecorator(Shape decoratedShape) {

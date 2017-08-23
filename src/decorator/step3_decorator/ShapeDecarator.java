@@ -1,4 +1,4 @@
-package decorator.step3;
+package decorator.step3_decorator;
 
 import decorator.step1.Shape;
 

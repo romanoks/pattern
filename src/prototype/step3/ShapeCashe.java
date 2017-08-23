@@ -1,5 +1,6 @@
 package prototype.step3;
 
+import bridge.step2_bridge.GreenCicle;
 import prototype.step1.Shape;
 import prototype.step2.Circle;
 import prototype.step2.Rectangle;
@@ -16,7 +17,7 @@ public class ShapeCashe {
     }
 
     public static void loadCacheBuilder() {
-        Circle circle = new Circle();
+        Circle circle = new Circle(100, 100, 10, new GreenCicle());
         circle.setId("1");
         shapeMap.put(circle.getId(),circle);
 
